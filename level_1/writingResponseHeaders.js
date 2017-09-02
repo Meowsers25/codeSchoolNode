@@ -11,7 +11,7 @@ http.createServer(function(request, response) {
 
   fs.readFile('index.html', function(err, contents) {
     response.write(contents);
-    response.end();
+    // response.end();
   });
 
 })
