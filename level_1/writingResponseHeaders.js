@@ -14,4 +14,7 @@ http.createServer(function(request, response) {
     response.end();
   });
 
-}).listen(8080);
+})
+.listen(process.env.PORT, function(){
+  console.log('Listning on port ' + process.env.PORT + '\n');
+})

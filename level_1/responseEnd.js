@@ -7,4 +7,6 @@ http.createServer(function(request, response) {
   //Now, remove the call to response.write().
   //response.write("Hello, this is dog");
   response.end("Hello, this is dog");
-}).listen(8080);
+}).listen(process.env.PORT, function(){
+  console.log('Listning on port ' + process.env.PORT + '\n');
+})
