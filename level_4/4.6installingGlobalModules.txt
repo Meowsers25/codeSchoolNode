@@ -1,0 +1,16 @@
+Now install the coffee-script module, but install it globally
+so you can use the coffee executable that comes with coffee-script.
+
+$ npm install coffee-script -g
+
+npm http GET https://registry.npmjs.org/coffee-script
+npm http 200 https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+npm http 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+npm http GET https://registry.npmjs.org/mkdirp
+npm http 200 https://registry.npmjs.org/mkdirp
+coffee-script@1.8.0 /node_modules/coffee-script
+└── mkdirp@0.3.5
+Congratulations, you're correct!
+
+$ 

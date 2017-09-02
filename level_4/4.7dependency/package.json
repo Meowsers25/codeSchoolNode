@@ -1,0 +1,10 @@
+{
+  "name": "My Awesome Node App",
+  "version": "1",
+  "dependencies": {
+         //Add the connect dependency to package.json
+        "connect": "2.1.1",
+         //Add the underscore dependency to package.json
+         "underscore": "1.3.3"
+  }
+}
